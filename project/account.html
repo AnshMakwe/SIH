@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  <!-- Icon - IconMonster -->
+  <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css" />
+  <!-- Mumble UI -->
+  <link rel="stylesheet" href="uikit/styles/uikit.css" />
+  <!-- Dev Search UI -->
+  <link rel="stylesheet" href="styles/app.css" />
+
+  <title>E-Start - Explore New Ideas!</title>
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="container container--narrow">
+      <a href="index.html" class="header__logo">
+        <img src="images/logo.svg" alt="DevSearch Logo" />
+      </a>
+      <nav class="header__nav">
+        <input type="checkbox" id="responsive-menu" />
+        <label for="responsive-menu" class="toggle-menu">
+          <span>Menu</span>
+          <div class="toggle-menu__lines"></div>
+        </label>
+        <ul class="header__menu">
+          <li class="header__menuItem"><a href="index.html">Explore  Ideas</a></li>
+          <li class="header__menuItem"><a href="mentor-profiles.html">Mentors</a></li>
+          <li class="header__menuItem"><a href="problems-dashboard.html">Problem Statements</a></li>
+          <li class="header__menuItem"><a href="stories.html">Start-Up Stories</a></li>
+          <!-- <li class="header__menuItem"><a href="inbox.html">Inbox</a></li> -->
+          <li class="header__menuItem"><a href="account.html">My Profile</a></li>
+          <li class="header__menuItem"><a href="login.html" class="btn btn--sub">Login/Sign Up</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Section -->
+  <main class="settingsPage profile my-md">
+    <div class="container">
+      <div class="layout">
+        <div class="column column--1of3">
+          <div class="card text-center">
+            <div class="card__body dev">
+              <a class="tag tag--pill tag--main settings__btn" href="#"><i class="im im-edit"></i> Edit</a>
+              <img class="avatar avatar--xl dev__avatar" src="https://images.unsplash.com/photo-1643190920086-2f681c42d9dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8YWV1NnJMLWo2ZXd8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" />
+              <h2 class="dev__name">Rajesh Mittal</h2>
+              <p class="dev__title">Expirance FullStack Developer, Youtuber and Instructor</p>
+              <p class="dev__location">Based in Delhi, India</p>
+              <ul class="dev__social">
+                <li>
+                  <a title="Github" href="#" target="_blank"><i class="im im-github"></i></a>
+                </li>
+                <li>
+                  <a title="Stackoverflow" href="#" target="_blank"><i class="im im-stackoverflow"></i></a>
+                </li>
+                <li>
+                  <a title="Twitter" href="#" target="_blank"><i class="im im-twitter"></i></a>
+                </li>
+                <li>
+                  <a title="LinkedIn" href="#" target="_blank"><i class="im im-linkedin"></i></a>
+                </li>
+                <li>
+                  <a title="Personal Website" href="#" target="_blank"><i class="im im-globe"></i></a>
+                </li>
+              </ul>
+              <a href="inbox.html" class="btn btn--sub btn--lg">Inbox </a>
+              <br>
+              <br>
+              <a href="#" class="btn btn--sub btn--lg">Send Message </a>
+            </div>
+          </div>
+        </div>
+        <div class="column column--2of3">
+          <div class="devInfo">
+            <h3 class="devInfo__title">About Me</h3>
+            <p class="devInfo__about">
+              As a Lead Front End Engineer, one of my main tasks was to mentor coworkers of my team, contributing to their personal and professional growth. I worked very close to stakeholders to define, organise and breakdown new projects
+              <br />
+              One of the biggest challenges I faced with my team was to migrate the ulabox.com website to a new business model while refactoring the entire technology stack to Next.js and React. We had to integrate this pivot into the Ulabox application too. I've worked with the logistics team to build Android applications with React-Native for our supply chain and dark stores.
+            </p>
+          </div>
+          
+
+
+
+          <div class="settings">
+            <h3 class="settings__title">Your Start-Up Ideas</h3>
+            <a class="tag tag--pill tag--sub settings__btn tag--lg" href="idea-submission-template.html"><i class="im im-plus"></i> Add Ideas</a>
+          </div>
+
+          <table class="settings__table">
+            <tr>
+              <td class="settings__thumbnail">
+                <a href="single-project.html"><img src="https://images.unsplash.com/photo-1581594549595-35f6edc7b762?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmlvdGVjaG5vbG9neXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Project Thumbnail" /></a>
+              </td>
+              <td class="settings__tableInfo">
+                <a href="single-project.html"></a>
+                <p>
+
+                  Biotechnology is one the strangest, scariest, sexiest, and most interesting corners of the stock market. In how many other industries are companies striving literally to save lives? Any industry can host a stock that has the potential to double, but what other industry can match biotechnology in the sheer number of stocks that could double if their companies' plans come to fruition?
+
+                </p>
+              </td>
+              <td class="settings__tableActions">
+                <a class="tag tag--pill tag--main settings__btn" href="#"><i class="im im-edit"></i> Edit</a>
+                <a class="tag tag--pill tag--main settings__btn" href="#"><i class="im im-x-mark-circle-o"></i>
+                  Delete</a>
+              </td>
+            </tr>
+            
+          </table>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

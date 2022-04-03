@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  <!-- Icon - IconMonster -->
+  <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css" />
+  <!-- Mumble UI -->
+  <link rel="stylesheet" href="uikit/styles/uikit.css" />
+  <!-- Dev Search UI -->
+  <link rel="stylesheet" href="styles/app.css" />
+  
+
+  <title>E-Start - Explore New Ideas!</title>
+</head>
+
+<body>
+  <!-- Header Section --> 
+  <header class="header">
+    <div class="container container--narrow">
+      <a href="index.html" class="header__logo">
+        <img src="images/logo.svg" alt="DevSearch Logo" />
+        <!-- <i class="fa-solid fa-binoculars" style="font-size: 4rem; color: white;"></i> -->
+      </a>
+      <nav class="header__nav">
+        <input type="checkbox" id="responsive-menu" />
+        <label for="responsive-menu" class="toggle-menu">
+          <span>Menu</span>
+          <div class="toggle-menu__lines"></div>
+        </label>
+        <ul class="header__menu">
+          <li class="header__menuItem"><a href="index.html">Explore  Ideas</a></li>
+          <li class="header__menuItem"><a href="mentor-profiles.html">Mentors</a></li>
+          <li class="header__menuItem"><a href="problems-dashboard.html">Problem Statements</a></li>
+          <li class="header__menuItem"><a href="stories.html">Start-Up Stories</a></li>
+          <!-- <li class="header__menuItem"><a href="inbox.html">Inbox</a></li> -->
+          <li class="header__menuItem"><a href="account.html">My Profile</a></li>
+          <li class="header__menuItem"><a href="login.html" class="btn btn--sub">Login/Sign Up</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Section -->
+  <main class="home">
+    <section class="hero-section text-center">
+      <div class="container container--narrow">
+        <div class="hero-section__box">
+          <h2>EXPLORE NEW <span>START-UP</span></h2>
+          <h2>AROUND THE WORLD</h2>
+        </div>
+
+        <div class="hero-section__search">
+          <form class="form" action="#" method="get">
+            <div class="form__field">
+              <label for="formInput#search">Search Developers </label>
+              <input class="input input--text" id="formInput#search" type="text" name="text"
+                placeholder="Search by idea name" />
+            </div>
+
+            <input class="btn btn--sub btn--lg" type="submit" value="Search" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="projectsList">
+      <div class="container">
+        <div class="grid grid--three">
+          <div class="column">
+            <div class="card project">
+              <a href="single-project.html" class="project">
+                <img class="project__thumbnail" src="https://images.unsplash.com/photo-1565688842882-e0b2693d349a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="project thumbnail" />
+                <div class="card__body">
+                  <h3 class="project__title">Business-to-Buisness(B2B) Software and Services</h3>
+                  <p><a class="project__author" href="profile.html">By Sidhart Kapoor</a></p>
+                  <p class="project--rating">
+                    <span style="font-weight: bold;">92%</span> Postitive
+                    Feedback (62 Votes)
+                  </p>
+                  <div class="project__tags">
+                    <span class="tag tag--pill tag--main">
+                      <small>ecom</small>
+                    </span>
+                    <span class="tag tag--pill tag--main">
+                      <small>networking</small>
+                    </span>
+                    <span class="tag tag--pill tag--main">
+                      <small>retail</small>
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card project">
+              <a href="single-project.html" class="project">
+                <img class="project__thumbnail" src="https://images.unsplash.com/photo-1571772996211-2f02c9727629?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="project thumbnail" />
+                <div class="card__body">
+                  <h3 class="project__title">Healthcare</h3>
+                  <p><a class="project__author" href="profile.html">By Shushmita</a></p>
+                  <p class="project--rating">
+                    <span style="font-weight: bold;">92%</span> Postitive
+                    Feedback (62 Votes)
+                  </p>
+                  <div class="project__tags">
+                    <span class="tag tag--pill tag--main">
+                      <small>Medical</small>
+                    </span>
+                    <span class="tag tag--pill tag--main">
+                      <small>Public Service</small>
+                    </span>
+                    <span class="tag tag--pill tag--main">
+                      <small>Vaccination</small>
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card project">
+              <a href="single-project.html" class="project">
+                <img class="project__thumbnail" src="https://images.unsplash.com/photo-1554769944-3138b076c38a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80" alt="project thumbnail" />
+                <div class="card__body">
+                  <h3 class="project__title">Consumer Goods and Services</h3>
+                  <p><a class="project__author" href="profile.html">By Ansh</a></p>
+                  <p class="project--rating">
+                    <span style="font-weight: bold;">36%</span> Postitive
+                    Feedback (18 Votes)
+                  </p>
+                  <div class="project__tags">
+                    <span class="tag tag--pill tag--main">
+                      <small>Django</small>
+                    </span>
+                    <span class="tag tag--pill tag--main">
+                      <small>Services</small>
+                    </span>
+                    <span class="tag tag--pill tag--main">
+                      <small>TypeScript</small>
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card project">
+              <a href="single-project.html" class="project">
+                <img class="project__thumbnail" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="project thumbnail" />
+                <div class="card__body">
+                  <h3 class="project__title">Financial Technology(Fin Tech)</h3>
+                  <p><a class="project__author" href="profile.html">By Martin Brundle</a></p>
+                  <p class="project--rating">
+                    <span style="font-weight: bold;">98%</span> Postitive
+                    Feedback (72 Votes)
+                  </p>
+                  <div class="project__tags">
+                    <span class="tag tag--pill tag--main">
+                      <small>Finance</small>
+                    </span>
+                    <span class="tag tag--pill tag--main">
+                      <small>Python</small>
+                    </span>
+                    <span class="tag tag--pill tag--main">
+                      <small>Machine Learning</small>
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card project">
+              <a href="single-project.html" class="project">
+                <img class="project__thumbnail" src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="project thumbnail" />
+                <div class="card__body">
+                  <h3 class="project__title">Consumer Media</h3>
+                  <p><a class="project__author" href="profile.html">By Arnav</a></p>
+                  <p class="project--rating">
+                    <span style="font-weight: bold;">92%</span> Postitive
+                    Feedback (62 Votes)
+                  </p>
+                  <div class="project__tags">
+                    <span class="tag tag--pill tag--main">
+                      <small>Media</small>
+                    </span>
+                    <span class="tag tag--pill tag--main">
+                      <small>Networks</small>
+                    </span>
+                    <span class="tag tag--pill tag--main">
+                      <small>Information Sharing</small>
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card project">
+              <a href="single-project.html" class="project">
+                <img class="project__thumbnail" src="https://images.unsplash.com/photo-1617155093730-a8bf47be792d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="project thumbnail" />
+                <div class="card__body">
+                  <h3 class="project__title">Biotech</h3>
+                  <p><a class="project__author" href="profile.html">By Aashi Sharma</a></p>
+                  <p class="project--rating">
+                    <span style="font-weight: bold;">36%</span> Postitive
+                    Feedback (18 Votes)
+                  </p>
+                  <div class="project__tags">
+                    <span class="tag tag--pill tag--main">
+                      <small>MicroBiology</small>
+                    </span>
+                    <span class="tag tag--pill tag--main">
+                      <small>Reasearch</small>
+                    </span>
+                    <span class="tag tag--pill tag--main">
+                      <small>Genetics</small>
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="pagination">
+      <ul class="container">
+        <li><a href="#" class="btn btn--disabled">&#10094; Prev</a></li>
+        <li><a href="#" class="btn btn--sub">01</a></li>
+        <li><a href="#" class="btn">02</a></li>
+        <li><a href="#" class="btn">03</a></li>
+        <li><a href="#" class="btn">04</a></li>
+        <li><a href="#" class="btn">05</a></li>
+        <li><a href="#" class="btn">06</a></li>
+        <li><a href="#" class="btn">07</a></li>
+        <li><a href="#" class="btn">08</a></li>
+        <li><a href="#" class="btn">09</a></li>
+        <li><a href="#" class="btn">10</a></li>
+        <li><a href="#" class="btn">Next &#10095;</a></li>
+      </ul>
+    </div>
+  </main>
+</body>
+
+</html>
